@@ -2,7 +2,7 @@ import React from "react";
 
 function Banner({ status, children }) {
   return (
-    <div class={`${status} banner`}>
+    <div className={`${status} banner`}>
       <p>
         {children}
       </p>
